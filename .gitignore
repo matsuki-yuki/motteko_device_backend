@@ -1,0 +1,14 @@
+# Macが勝手に作る見えないファイル
+.DS_Store
+
+# M5Stackの秘密ファイル（Wi-FiやFirebaseの接続情報）
+m5stack/secrets.h
+
+# Firebase/Pythonの秘密ファイル（GeminiのAPIキーなど）
+firebase_backend/functions/config.py
+
+# Pythonの仮想環境やキャッシュ（重いのでGitには入れない）
+firebase_backend/functions/venv/
+firebase_backend/functions/__pycache__/
+.firebase/
+firebase-debug.log
