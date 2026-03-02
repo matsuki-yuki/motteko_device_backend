@@ -106,7 +106,7 @@ void startBLESetup() {
         CHAR_UUID_SSID,
         BLECharacteristic::PROPERTY_WRITE
     );
-    pSSIDChar->setCallbacks(new SSIDCallbacks());
+    pSSIDChar->setCallbacks(new SSIgit switch -c refactor-main-cppDCallbacks());
 
     // パスワード特性
     BLECharacteristic *pPassChar = pService->createCharacteristic(
